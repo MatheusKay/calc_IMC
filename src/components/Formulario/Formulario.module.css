@@ -1,0 +1,150 @@
+.containerForm {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: 7%;
+    background-color: #4D3636;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.titulo {
+    width: 70%;
+    margin: 0 auto 5%;
+    text-align: center;
+}
+
+.form {
+    background-color: #332424;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+/**/
+
+.label {
+    font-size: 18px;
+}
+
+/**/
+
+.primeirasInfosIdade, .primeirasInfosNome, 
+.segundasInfosEmail, .terceirasInfosAltura,
+.terceirasInfosPeso, .terceirasInfosGenero {
+    padding: .6rem;
+    margin-left: 1%;
+    margin-bottom: 4%;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+}
+
+.primeirasInfosNome {
+    width: 70%;
+    margin-right: 5%;
+}
+
+.primeirasInfosIdade {
+    width: 10%;
+}
+
+/**/
+
+.segundasInfosEmail {
+    width: 83%;
+}
+
+/**/
+
+.terceirasInfosAltura,
+.terceirasInfosPeso {
+    margin-right: 5%;
+    width: 10%;
+}
+
+.terceirasInfosGenero {
+    width: 28%;
+}
+
+/**/
+
+.containerButton {
+    display: flex;
+    justify-content: end;
+}
+
+.containerButton button {
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.containerButton button:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: background-color .3s ease;
+}
+
+/**/
+
+@media screen and (max-width: 767px) {
+    .containerForm {
+        height: 100vh;
+        width: 90%;
+        margin: 15% auto;
+        padding: 1rem;
+    }
+
+    .titulo {
+        width: 100%;
+        margin-bottom: 10%;
+        font-size: 1.3rem;
+    }
+
+    .form {
+        padding: 1rem;
+    }
+
+    .primeirasInfosIdade, .primeirasInfosNome,
+    .segundasInfosEmail, .terceirasInfosAltura,
+    .terceirasInfosGenero, .terceirasInfosPeso {
+        margin-left: 5%;
+        margin-bottom: 10%;
+        margin-right: 0;
+    }
+
+    .primeirasInfosNome {
+        width: 75%;
+    }
+
+    .primeirasInfosIdade {
+        width: 25%;
+    }
+
+    .segundasInfosEmail {
+        width: 75%;
+    }
+
+    .terceirasInfosAltura,
+    .terceirasInfosPeso {
+        width: 24%;
+        margin-right: 3%;
+    }
+
+    .terceirasInfosGenero {
+        width: 70%;
+    }
+
+    /**/
+
+    .containerButton button {
+        padding: .7rem;
+        margin-top: 5%;
+        font-size: 16px;
+    }
+}

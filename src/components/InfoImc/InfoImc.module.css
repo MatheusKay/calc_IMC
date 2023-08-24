@@ -1,0 +1,131 @@
+.containerTabela {
+    margin: 5% 0;
+    background-color: #4D3636;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.containerInfoImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+}
+
+.containerInfoImg p {
+    padding: 8px;
+    font-size: 24px;
+}
+
+.infosPessoais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #332424;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.imgCorpo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imgCorpoH {
+    width: 160px;
+}
+
+/**/
+
+.tabelaImc {
+    padding: 2rem;
+}
+
+.tabelaItemImc {
+    width: 15%;
+    font-size: 20px;
+}
+
+.tabelaItemEstImc {
+    width: 20%;
+    font-size: 20px;
+}
+
+.tabelaItemDescImc {
+    width: 45%;
+    font-size: 20px;
+}
+
+.tabelaItemSeuEst {
+    width: 10%;
+    font-size: 20px;
+}
+
+/**/
+
+th,
+td {
+    padding: 16px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.linhaRef {
+    padding: 8px;
+}
+
+.imgCerto {
+    height: 60px;
+}
+
+/**/
+
+.containerButton {
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+}
+
+.containerButton button {
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.containerButton button:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: background-color .3s ease;
+}
+
+@media screen and (max-width: 767px) {
+    .containerInfoImg {
+        padding: 1rem;
+    }
+
+    .infosPessoais {
+        padding: 8px;
+    }
+
+    .containerInfoImg p {
+        font-size: 14px;
+    }
+
+    .containerTabelas {
+        overflow-x: auto;
+    }
+
+    /**/
+
+    th {
+        font-size: 18px;
+    }
+
+    td {
+        font-size: 14px;
+    }
+}
