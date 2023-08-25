@@ -18,7 +18,7 @@ const InfoIMC = ({setNome, setIdade, setGenero, setAltura, setPeso, setImc, setE
                         <div className={styles.infosPessoais}>
                             <p>Nome: <span>{setNome}</span></p> 
                             <p>Idade: <span>{setIdade} anos</span></p> 
-                            <p>Genêro: <span>{setGenero}</span></p> 
+                            <p>Gênero: <span>{setGenero}</span></p> 
                             <p>Altura: <span>{setAltura}m</span></p> 
                             <p>Peso: <span>{setPeso}kg</span></p> 
                             <p>IMC: <span>{setImc}%</span></p>

@@ -35,7 +35,7 @@ const Formulario = ({getNome, getIdade, getEmail, getAltura, getPeso, getGenero,
                                 <label className={styles.label}>Peso:</label>
                                 <input required className={styles.terceirasInfosPeso} type="number" onBlur={getPeso} />
 
-                                <label className={styles.label}>Genêro:</label>
+                                <label className={styles.label}>Gênero:</label>
                                 <input required className={styles.terceirasInfosGenero} type="text" placeholder="Homem ou Mulher" onBlur={getGenero} />
                             </div>
 
